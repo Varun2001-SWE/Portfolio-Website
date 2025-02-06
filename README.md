@@ -10,25 +10,16 @@ Built using:
 - CSS framework: React-bootstrap
 - CSS animations library: Animate.css
 
-In the /personal-portfolio, you can run:
+Portfolio Website
+This is a portfolio website built with React and styled using React Bootstrap. It showcases various personal projects, skills, and experiences in an easy-to-navigate and responsive layout. The website is designed to be a modern and professional online presence for showcasing a developer's work.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Features
+Responsive Design: The website is fully responsive, providing an optimal viewing experience across a variety of devices (desktop, tablet, mobile).
+React Components: Utilizes React's component-based architecture for a clean, maintainable codebase.
+React Bootstrap: Styled with React Bootstrap to provide a sleek, modern UI with a responsive grid system.
+Smooth Animations: Implements smooth animations for transitions and interactive elements.
+Project Showcase: Displays a selection of personal projects with details, images, and links to live demos or GitHub repositories.
+Contact Form: Includes a contact form for potential clients or collaborators to reach out.
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
