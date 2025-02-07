@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Screenshot](![Image](https://github.com/user-attachments/assets/7900c909-4b00-4901-8eb7-485671fdd466))
+![Screenshot](https://github.com/user-attachments/assets/da5725a4-ed73-4ae1-852f-57b3cfc713d0)
 
 Built using:
 
