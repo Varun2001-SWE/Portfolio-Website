@@ -725,13 +725,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     padding: 12px 24px;
     font-size: 16px;
   }
-} */ */
+} */ 
 
 /************ Banner Css ************/
 /* Existing banner styles... */
 
 /************ Responsive Styles for Banner ************/
- {} @media screen and (max-width: 992px) {
+  @media screen and (max-width: 992px) {
   .banner-content {
     text-align: center;
     padding: 20px;
