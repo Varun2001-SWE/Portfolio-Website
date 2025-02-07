@@ -786,7 +786,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 576px) and (max-width: 360px) {
   .skills-container {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -803,7 +803,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* Existing projects styles... */
 
 /************ Responsive Styles for Projects Section ************/
-@media (max-width: 992px) {
+@media (max-width: 992px) and (max-width: 360px) {
   .project {
     padding: 60px 20px; /* Reduce padding on smaller screens */
   }
@@ -829,7 +829,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* Existing contact styles... */
 
 /************ Responsive Styles for Contact Section ************/
-@media (max-width: 768px) {
+@media (max-width: 768px) and (max-width: 360px){
   .contact {
     padding: 40px 10px; /* Reduce padding */
   }
@@ -850,7 +850,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* Existing footer styles... */
 
 /************ Responsive Styles for Footer ************/
-@media (max-width: 768px) {
+@media (max-width: 768px) and (max-width: 360px)  {
   .footer {
     padding: 40px 20px; /* Reduce padding */
   }
