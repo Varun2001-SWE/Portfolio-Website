@@ -236,27 +236,30 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* Responsiveness for Navbar - Test Code */
 
-@media (max-width: 600px) {
-   nav.navbar {
+@media (max-width: 420px) and (min-width: 600px)  {
+  nav.navbar {
     width: 100%;
-   }
-}
-
-@media (min-width: 768px) {
-  nav.navbar {
-   width: 100%;
   }
 }
 
-@media (min-width: 601px) {
+/* Small Devices (Tablets, Large Phones) */
+@media (min-width: 577px) and (max-width: 768px) {
   nav.navbar {
-   width: 100%;
+    width: 100%;
   }
 }
 
-@media (min-width: 992px) and (max-width: 480px) {
+/* Medium Devices (Small Laptops) */
+@media (min-width: 769px) and (max-width: 992px) {
   nav.navbar {
-   width: 100%;
+    width: 100%;
+  }
+}
+
+/* Large Devices (Desktops) */
+@media (min-width: 993px) and (max-width: 1200px) {
+  nav.navbar {
+    width: 100%;
   }
 }
 
@@ -280,7 +283,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: inline-block;
 }
 .banner h1 {
-  font-size: 65px;
+  font-size: 4rem;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -669,8 +672,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* Test Code for Responsiveness */
 
-copy
-css
+
 
 /************ Custom Font ************/
 /* (No changes needed here) */
@@ -682,19 +684,19 @@ css
 /* Existing navbar styles... */
 
 /* Responsive Styles for Navbar */
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   nav.navbar .navbar-nav {
     text-align: center;
     flex-direction: column; /* Stack items vertically on smaller screens */
-  }
+  /* }
   nav.navbar .navbar-nav .nav-link {
     padding: 10px 0;
     display: block;
   }
   .navbar-text {
     flex-direction: column; /* Stack items in the navbar-text vertically */
-  }
-  .social-icon {
+  
+  /* .social-icon {
     margin: 10px 0;
   }
 }
@@ -710,9 +712,9 @@ css
     background-color: #121212;
     padding: 10px;
   }
-}
+} */ 
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   nav.navbar {
     padding: 10px 0;
   }
@@ -723,13 +725,13 @@ css
     padding: 12px 24px;
     font-size: 16px;
   }
-}
+} */ */
 
 /************ Banner Css ************/
 /* Existing banner styles... */
 
 /************ Responsive Styles for Banner ************/
-@media (max-width: 992px) {
+ {} @media screen and (max-width: 992px) {
   .banner-content {
     text-align: center;
     padding: 20px;
@@ -738,19 +740,19 @@ css
 
 @media (max-width: 768px) {
   .banner-content h1 {
-    font-size: 28px;
+    font-size: 1rem;
   }
   .banner-content p {
     font-size: 16px;
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 576px) and (min-width : 420px) {
   .banner {
     padding: 40px 10px;
   }
   .banner-content h1 {
-    font-size: 24px;
+    font-size: 0.5rem;
   }
   .banner-content p {
     font-size: 14px;
